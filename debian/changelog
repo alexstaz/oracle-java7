@@ -1,3 +1,9 @@
+oracle-java7 (7.95-1) stable; urgency=low
+
+  * New upstream release
+
+ -- Janusz Dziemidowicz <rraptorr@nails.eu.org>  Tue, 14 Apr 2015 22:16:25 +0200
+
 oracle-java7 (7.91-1) stable; urgency=low
 
   * New upstream release
