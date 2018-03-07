@@ -354,8 +354,9 @@ binary-$(p_jbin):	build
 	  cp debian/$(basename)-$$i.mime $(d_jbin)/usr/share/mime-info/; \
 	done
 
-	cp -p $(d_jbin)/$(basedir)/jre/plugin/desktop/sun_java.png \
-		$(d_jbin)/usr/share/pixmaps/$(basename).png
+	#removed in 7.161
+	#cp -p $(d_jbin)/$(basedir)/jre/plugin/desktop/sun_java.png \
+	#	$(d_jbin)/usr/share/pixmaps/$(basename).png
 	cp -p debian/sun_java.xpm \
 		$(d_jbin)/usr/share/pixmaps/$(basename).xpm
 
