@@ -259,9 +259,10 @@ binary-$(p_jbin):	build
 	: remove arch indep files and directories
 	rm -rf $(foreach i, $(common_jre_things), $(d_jbin)/$(basedir)/$(i))
 
-	: # install a wrapper for javaws
-	mv $(d_jbin)/$(basedir)/jre/bin/javaws $(d_jbin)/$(basedir)/jre/bin/javaws.real
-	install -m 755 debian/javaws-wrapper.sh $(d_jbin)/$(basedir)/jre/bin/javaws
+	#removed in 7.161
+	#: # install a wrapper for javaws
+	#mv $(d_jbin)/$(basedir)/jre/bin/javaws $(d_jbin)/$(basedir)/jre/bin/javaws.real
+	#install -m 755 debian/javaws-wrapper.sh $(d_jbin)/$(basedir)/jre/bin/javaws
 
 
 ###	: # get upstream docs out of there
