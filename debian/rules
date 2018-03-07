@@ -460,7 +460,7 @@ binary-$(p_jre):	build
 	  | tar -x -C $(d_jre)/$(basedir) -f -
 
 	: # JCE Unlimited Strength Jurisdiction Policy
-	cp -a UnlimitedJCEPolicy/*.jar $(d_jre)/$(basedir)/jre/lib/security/
+	#cp -a UnlimitedJCEPolicy/*.jar $(d_jre)/$(basedir)/jre/lib/security/
 
 	: # add lintian overrides
 	cp -p debian/$(p_jre).overrides \
