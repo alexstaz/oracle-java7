@@ -132,10 +132,10 @@ common_jre_things = \
 	jre/lib/ext/sunjce_provider.jar \
 	jre/lib/ext/sunpkcs11.jar \
 	jre/lib/ext/sunec.jar \
-	jre/lib/security/limited/local_policy.jar \
-	jre/lib/security/limited/US_export_policy.jar \
-	jre/lib/security/unlimited/local_policy.jar \
-	jre/lib/security/unlimited/US_export_policy.jar \
+	jre/lib/security/policy/limited/local_policy.jar \
+	jre/lib/security/policy/limited/US_export_policy.jar \
+	jre/lib/security/policy/unlimited/local_policy.jar \
+	jre/lib/security/policy/unlimited/US_export_policy.jar \
 	jre/lib/locale \
 	jre/COPYRIGHT \
 	jre/LICENSE \
