@@ -107,7 +107,7 @@ d_javadb	:= debian/$(p_javadb)
 binary_arch_targets	= \
 	$(patsubst %, binary-%, $(p_jbin) $(p_jdk) $(p_plug))
 binary_indep_targets	:= \
-	$(patsubst %, binary-%, $(p_jre) $(p_src) $(p_fonts) $(p_javadb))
+	$(patsubst %, binary-%, $(p_jre) $(p_src) $(p_fonts))
 
 # (most) jre and jdk tools handled by the alternatives system.
 # dups in heimdal-clients, krb5-user: kinit, klist, ktab, no alternatives
